@@ -1,3 +1,26 @@
+#VID-STREAM
+
+An app that allows users to stream videos using obs
+
+## How to use
+Download obs here -> https://obsproject.com/download
+npm install
+run npm start in your terminal/command-prompt
+Open a new terminal/command-prompt in the root directory
+cd /api
+run npm start in your terminal/command-prompt to create a simple mock rest api 
+Open a new terminal/command-prompt in the root directory
+cd /rtmpserver
+run npm start in your terminal/command prompt to create a rtmtserver used to connect to obs
+
+### Obs setup
+Open Stream in setttings 
+Create custom streaming source
+use rtmt://localhost/live/ as stream source
+use video id as stream key
+Note that the id is the sort order of the stream list display in ascending order
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
